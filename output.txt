@@ -1,2 +1,1 @@
-190
-This is for checking out if github adds this files under Array or not in github
+The Sum of elements of an array is : 15

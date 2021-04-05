@@ -18,10 +18,20 @@ int32_t main()
         freopen("output.txt","w",stdout);
     #endif
     
-    int a;
-    cin>>a;
-    cout<<a<<endl;
-    cout<<"This is for checking out if github adds this files under Array or not in github";
+    // print the sum of an array having n elements
+
+    int n; cin>>n;
+    int arr[n];
+
+    for(int i=0;i<n;i++) cin>>arr[i];
+
+    int sum=0;
+    for(int i=0;i<n;i++)
+    {
+        sum+=arr[i];
+    }
+
+    cout<<"The Sum of elements of an array is : "<<sum<<endl;
 
 
     return 0;
