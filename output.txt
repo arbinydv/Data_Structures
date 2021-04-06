@@ -1,1 +1,1 @@
-The Sum of elements of an array is : 15
+2
