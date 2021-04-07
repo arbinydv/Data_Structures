@@ -26,7 +26,7 @@ void counts(string s,string t)
      // vector res will store the size of substring starting at t[0]
      res.pb(pos);
 
-     // pos will be shifted to the next occurence of the t[0] substring in  the String s
+     // pos will be shifted to the next occurence of the t[0] substring in  the String s from  t_size()
      pos= s.find(t,pos+t.size());
    }
    cout<<res.size();
